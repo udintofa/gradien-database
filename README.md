@@ -211,19 +211,9 @@ CREATE INDEX idx_answers_attempt ON answers(attempt_id);
 
 ---
 
-## 🔗 Relasi Besar (Ringkasan)
+## 🔗 Entity Relationship Diagram
 
-```txt
-USERS
- └─ ATTEMPTS
-     └─ TRYOUTS
-         └─ QUESTIONS
-             └─ OPTIONS
-
-COURSES
- ├─ MATERIALS
- └─ TRYOUTS
-```
+![Entity Relationship Diagram](plantuml.png)
 
 ---
 
